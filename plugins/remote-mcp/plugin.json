@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "remote-mcp",
+  "version": "1.0.0",
+  "description": "Remote canary server and a skill",
+  "extensions": {
+    "com.atmos": {
+      "interface": {
+        "displayName": "Remote canary",
+        "shortDescription": "Remote canary fixture",
+        "brandColor": "#3A5BD9",
+        "icon": "./assets/icon.svg",
+        "logo": "./assets/logo.png",
+        "screenshots": [
+          "./assets/screenshot-1.png"
+        ]
+      }
+    }
+  }
+}

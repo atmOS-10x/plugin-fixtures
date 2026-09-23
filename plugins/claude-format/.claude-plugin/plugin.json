@@ -1,0 +1,6 @@
+{
+  "name": "claude-format",
+  "displayName": "Claude format",
+  "version": "1.0.0",
+  "description": "Claude Code layout fixture"
+}

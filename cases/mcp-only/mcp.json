@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "canary": {
+      "command": "node",
+      "args": [
+        "./canary.js"
+      ],
+      "env": {
+        "CANARY_TOKEN": "CANARY-MCP-ONLY-4F1X"
+      }
+    }
+  }
+}

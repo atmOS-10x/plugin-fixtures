@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "portable-stdio",
+  "version": "1.0.0",
+  "description": "portable-stdio canary server and a skill",
+  "extensions": {
+    "com.atmos": {
+      "interface": {
+        "displayName": "Portable stdio",
+        "shortDescription": "Portable stdio fixture",
+        "brandColor": "#7A4FD0",
+        "icon": "./assets/icon.svg",
+        "logo": "./assets/logo.png",
+        "screenshots": [
+          "./assets/screenshot-1.png"
+        ]
+      },
+      "runtime": {
+        "canary": {
+          "kind": "portable"
+        }
+      }
+    }
+  }
+}

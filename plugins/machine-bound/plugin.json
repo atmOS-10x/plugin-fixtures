@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "machine-bound",
+  "version": "1.0.0",
+  "description": "machine-bound canary server and a skill",
+  "extensions": {
+    "com.atmos": {
+      "interface": {
+        "displayName": "Machine bound",
+        "shortDescription": "Machine bound fixture",
+        "brandColor": "#B7791F",
+        "icon": "./assets/icon.svg",
+        "logo": "./assets/logo.png",
+        "screenshots": [
+          "./assets/screenshot-1.png"
+        ]
+      },
+      "runtime": {
+        "canary": {
+          "kind": "machine",
+          "os": [
+            "macos",
+            "linux"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "skills-only",
+  "version": "1.0.0",
+  "description": "Canary skills with no servers",
+  "extensions": {
+    "com.atmos": {
+      "interface": {
+        "displayName": "Skills only",
+        "shortDescription": "Skills only fixture",
+        "brandColor": "#0F7C86",
+        "icon": "./assets/icon.svg",
+        "logo": "./assets/logo.png",
+        "screenshots": [
+          "./assets/screenshot-1.png"
+        ]
+      }
+    }
+  }
+}

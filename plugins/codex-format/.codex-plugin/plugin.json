@@ -1,0 +1,16 @@
+{
+  "name": "codex-format",
+  "version": "1.0.0",
+  "description": "Codex layout fixture",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Codex format",
+        "shortDescription": "Branded through com.openai",
+        "brandColor": "#10A37F",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

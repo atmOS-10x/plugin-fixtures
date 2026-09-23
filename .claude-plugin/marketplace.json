@@ -1,0 +1,18 @@
+{
+  "name": "atmos-plugin-fixtures",
+  "owner": {
+    "name": "atmOS"
+  },
+  "plugins": [
+    {
+      "name": "skills-only",
+      "source": "./plugins/skills-only",
+      "description": "Skills only"
+    },
+    {
+      "name": "remote-mcp",
+      "source": "./plugins/remote-mcp",
+      "description": "Remote MCP and a skill"
+    }
+  ]
+}
