@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "skills-only",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Canary skills with no servers",
   "extensions": {
     "com.atmos": {

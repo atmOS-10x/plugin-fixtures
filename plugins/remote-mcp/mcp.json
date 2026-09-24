@@ -2,7 +2,7 @@
   "mcpServers": {
     "canary": {
       "type": "http",
-      "url": "http://127.0.0.1:47811/mcp"
+      "url": "https://docs.mcp.cloudflare.com/mcp"
     }
   }
 }

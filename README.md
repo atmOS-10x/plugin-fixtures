@@ -1,11 +1,11 @@
 # plugin-fixtures
 
-Test fixtures for atmOS plugin detection. Every skill answers with a fixed token and every server exposes `canary_echo`, so a harness transcript proves what was loaded.
+Test fixtures for atmOS plugin detection. Every skill answers with a fixed token and every local server exposes `canary_echo`, so a harness transcript proves what was loaded. `remote-mcp` points at the public Cloudflare docs MCP server (`search_cloudflare_documentation`, no auth).
 
 | Path | Case |
 |------|------|
 | `plugins/skills-only` | Agent Plugins manifest, skills only |
-| `plugins/remote-mcp` | remote MCP server + skill |
+| `plugins/remote-mcp` | remote MCP server (Cloudflare docs) + skill |
 | `plugins/portable-stdio` | stdio server that runs on a plugin host + skill |
 | `plugins/machine-bound` | stdio server bound to one Machine |
 | `plugins/codex-format` | `.codex-plugin/` manifest with `com.openai` branding |
